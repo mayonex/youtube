@@ -1,0 +1,50 @@
+.search {
+  display: flex;
+  align-items: center;
+  color: white;
+  div {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    .logo-icon {
+      font-size: 3rem;
+      color: #ff2600;
+    }
+    h1 {
+      margin-left: 0.5rem;
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+  }
+  form {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    input {
+      max-width: 70%;
+      min-width: 50%;
+      height: 3rem;
+      background-color: rgb(96, 96, 96);
+      border: 1px solid black;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      border-right: none;
+      outline: none;
+      padding-left: 1rem;
+      font-size: 1rem;
+    }
+    input::placeholder {
+      color: white;
+    }
+    button {
+      width: 3rem;
+      height: 3rem;
+      background-color: gray;
+      border: 1px solid black;
+      border-left: none;
+      border-top-right-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+    }
+  }
+}
